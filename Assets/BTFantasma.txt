@@ -1,0 +1,12 @@
+tree("Fantasma")
+    fallback
+        sequence
+            JugadorCerca
+            CambiarDireccionHaciaJugador
+            Mover
+        sequence
+            ParedCerca
+            CambiarDireccionAleatoria
+            Mover
+        sequence
+            Mover

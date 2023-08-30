@@ -1,0 +1,18 @@
+tree("Root")
+    fallback
+        sequence
+            JugadorCerca
+            CambiarDireccionHaciaJugador
+            Mover
+        sequence
+            SalidaCerca
+            CambiarDireccionHaciaSalida
+            Mover
+        sequence
+            ParedCerca
+            Girar90Grados
+            Mover
+        sequence
+            Mover
+
+
